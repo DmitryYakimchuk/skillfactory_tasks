@@ -4,7 +4,8 @@ def game():
 
 
     def print_field(game_field):
-        # Функция печатает текущее поле игры
+        """Функция печатает текущее поле игры"""
+        #New comment
         for line in game_field:
             for each in line:
                 print(each, end="")
